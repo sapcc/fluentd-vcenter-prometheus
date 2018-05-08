@@ -13,6 +13,7 @@ RUN set -ex \
     && echo 'gem: --no-document' >> /etc/gemrc \
     && gem install fluent-plugin-prometheus \
     && gem install fluent-plugin-rewrite-tag-filter \
+    && gem install fluent-plugin-elasticsearch \
     && apk del .build-deps \
     && gem sources --clear-all \
     && rm -rf /tmp/* /var/tmp/* /usr/lib/ruby/gems/*/cache/*.gem
