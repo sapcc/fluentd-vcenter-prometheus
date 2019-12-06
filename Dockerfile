@@ -1,4 +1,4 @@
-FROM fluent/fluentd:v0.12.33
+FROM fluent/fluentd:v1.7.4-1.0
 MAINTAINER Shane Parker
 USER root
 WORKDIR /home/fluent
