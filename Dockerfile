@@ -1,4 +1,5 @@
 FROM fluent/fluentd:v1.9.2-1.0
+LABEL source_repository="https://github.com/sapcc/fluentd-vcenter-prometheus"
 MAINTAINER Shane Parker
 USER root
 WORKDIR /home/fluent
